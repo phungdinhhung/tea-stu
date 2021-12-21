@@ -1,0 +1,27 @@
+/* Exam Bank */
+.exam-bank {
+  margin: 4% 10%;
+  font-family: cursive;
+  margin-bottom: 25%;
+}
+.exam-bank .exam-detail {
+  color: rgb(71, 71, 71);
+  font-style: italic;
+  text-decoration: underline;
+}
+.exam-bank .exam-detail:hover {
+  color: rgb(89, 89, 161);
+}
+.btn-details {
+  border: 1px solid rgba(245, 222, 179, 0);
+  background-color: rgba(245, 222, 179, 0);
+  cursor: pointer;
+  text-decoration: underline;
+  font-style: italic;
+  color: rgb(105, 105, 105);
+}
+.notify {
+  background-color: rgb(47, 180, 80) !important;
+  color: white !important;
+  text-align: center !important;
+}

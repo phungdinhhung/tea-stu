@@ -1,0 +1,123 @@
+.profile {
+  margin: 2.5% 17%;
+}
+.profile h4 {
+  /* text-decoration: underline; */
+  text-align: center;
+  margin-bottom: 3%;
+  color: rgb(65, 65, 65);
+  font-weight: 400;
+  font-family: cursive;
+}
+.profile .avatar {
+  /* width: 70%; */
+  /* height: 50%; */
+  width: 160px;
+}
+.profile .edit-infor button {
+  outline: none;
+  border: 1px solid rgb(189, 189, 189);
+  width: 120px;
+  cursor: pointer;
+  height: 40px;
+  background-color: rgba(171, 210, 223, 0.829);
+  transition: 0.5s;
+  border-radius: 10px;
+    margin-top: 3%;
+}
+.profile .edit-infor button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+.update-profile .input-update {
+  margin-bottom: 5%;
+  width: 100%;
+  outline: none;
+  border: 1px solid rgb(212, 212, 212);
+  padding-left: 5px;
+  color: rgb(116, 111, 111);
+}
+.profile .inf, .inf-update {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.profile .inf label {
+  font-family: cursive;
+  font-weight: 500;
+  width: 350px;
+  /* margin-bottom: 2%; */
+  font-size: 110%;
+}
+.profile .inf-update label {
+  font-family: cursive;
+  font-weight: 500;
+  /* width: 140px; */
+  font-size: 110%;
+  margin-left: -75px;
+}
+.profile-infor .inf .lable-1{
+  width: 100%;
+  /* margin-top: 2%; */
+    margin-bottom: 5%;
+  margin-top: 0.5%;
+}
+.update-profile .lable-1{
+  width: 100%;
+}
+.profile .inf-update input {
+  border: 1px solid rgb(196, 196, 196);
+  width: 700px;
+  border-radius: 5px;
+  outline: none;
+  /* padding-left: 4px; */
+  color: rgb(80, 80, 80);
+  margin-right: 130px;
+  margin-bottom: 3.5%;
+  /* margin-top: 1%; */
+  /* font-family: cursive; */
+  font-weight: 400;
+  font-size: 110%;
+  font-family: cursive;
+}
+
+.file-upload {
+	position: relative;
+	overflow: hidden;
+	border-radius: 3px !important;
+	background: #ffffff;
+	text-transform: uppercase;
+	font-size: 13px;
+	border:none !important;
+	box-shadow: none !important;
+	color: #fff !important;
+	text-shadow:none;
+	padding: 5px 10px !important;
+	font-family: Arial, sans-serif;
+	display: inline-block;
+	vertical-align: middle;
+  padding-left: 29%;
+
+}
+.file-upload ion-icon{
+  color: black;
+  font-size: 150%;
+}
+.file-upload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+/* .change-password{
+  border: 1px solid rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  font-family: cursive;
+  margin-left: -10px;
+} */

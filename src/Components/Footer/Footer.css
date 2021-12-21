@@ -1,0 +1,15 @@
+footer{
+    font-size: 90%;
+    position : absolute;
+    bottom : auto;
+    width: 100%;
+    line-height: 7px;
+    padding-top: 2%;
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    color: rgb(76, 118, 196);
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+.login form{
+    margin: 5% 32%;
+    text-align: center;
+}
+.login form h1{
+    margin-bottom: 5%;
+    font-family: cursive;
+}
+.login label{
+    font-weight: 500;
+    font-size: 110%;
+    font-family: cursive;
+}
+.login input{
+    font-weight: 300;
+    font-family: cursive;
+    background-color: rgba(171, 210, 223, 0.829);
+}
+.login form button{
+    margin-top: 6%;
+    width: 100%;
+    background-color: rgba(21, 133, 141, 0.829);
+}
+
+
+    

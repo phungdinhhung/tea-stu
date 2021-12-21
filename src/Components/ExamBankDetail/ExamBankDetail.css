@@ -1,0 +1,74 @@
+/* Exam Bank Details */
+.exam-details {
+  margin: 3% 20%;
+}
+/* .exam-details .ques{
+    margin-left: 2%;
+} */
+.normal .ans {
+  margin-left: 4%;
+}
+.header-details {
+  display: flex;
+}
+.header-details button {
+  outline: none;
+  border: 1px solid rgb(168, 168, 168);
+  margin-right: 10px;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(168, 28, 28);
+  font-family: cursive;
+  transition: 0.5s;
+  color: white;
+}
+.header-details button:hover {
+  transition: 0.5s;
+  background-color: rgba(171, 210, 223, 0.829);
+  /* font-size: 110%; */
+  color: black;
+}
+.content-exam-details {
+  font-family: cursive;
+}
+.edit .ans {
+  margin-bottom: 20px;
+}
+.edit .question-exam-details input {
+  border-bottom: 1px solid rgb(228, 228, 228);
+  outline: none;
+  /* border-radius: 5px; */
+  border-top: white;
+  border-left: white;
+  border-right: white;
+}
+.edit .question-exam-details .question_content {
+  width: 80%;
+}
+.edit .question-exam-details .point_question {
+  width: 7%;
+}
+.edit .question-exam-details .answer_content {
+  width: 60.1%;
+}
+.exam-details .title-infor{
+  width: 16%;
+}
+.exam-details .edit-time input{
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(197, 197, 197);
+  width: 168%;
+}
+.exam-details .edit-topic{
+  width: 75%;
+}
+.notify-success{
+  background-color: rgb(47, 180, 80) !important;
+  font-size: 15px;
+  border-radius: 10px 10px 10px 10px;
+  color: white !important;
+  text-align: center !important;
+}

@@ -1,0 +1,72 @@
+.btn-icon {
+  border: none;
+}
+
+.created-questions {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.created-questions button{
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  float: right;
+  margin-top: -70px;
+  cursor: pointer;
+  margin-right: 34px;
+}
+
+.save{
+  text-align: center;
+  margin-bottom: 3%;
+  background-color: rgba(214, 207, 207, 0);
+}
+.save button{
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  border: 1px solid rgb(146, 146, 146);
+  background-color: rgba(171, 210, 223, 0.829);
+  height: 40px;
+  border-radius: 5px;
+  font-family: cursive;
+  transition: all 0.5s;
+}
+.save button:hover{
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+}
+
+.action-questions button{
+  outline: none;
+}
+
+.id-test{
+  font-family: cursive;
+}
+
+.exam-time label{
+  font-family: cursive;
+}
+.exam-time select{
+  width: 42%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(202, 202, 202);
+}
+.exam-time select option{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.create-quiz{
+  font-family: cursive;
+}
+
+.notify-question {
+  background-color: rgb(182, 0, 0) !important;
+  font-size: 15px;
+  border-radius: 10px 10px 10px 10px;
+  color: white !important;
+  text-align: center !important;
+}

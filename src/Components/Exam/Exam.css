@@ -1,0 +1,77 @@
+.exam {
+  margin: 3% 17%;
+  font-family: cursive;
+}
+.exam .infor-exam {
+  border: 1px solid rgb(201, 201, 201);
+  padding: 2% 10%;
+  border-radius: 10px;
+}
+.exam .countdown {
+  display: flex;
+  border: 1px solid rgb(69, 189, 39);
+  border-radius: 5px;
+  background-color: rgb(69, 189, 39);
+  margin-top: 2%;
+  color: white;
+}
+.exam .countdown label {
+  margin: 0px 38%;
+}
+.exam .content-exam {
+  margin-top: 2%;
+}
+.exam .title-information {
+  width: 35%;
+}
+
+.ans .enter-result {
+  border: 1px solid rgb(214, 214, 214);
+  width: 350%;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 3px;
+}
+
+.save {
+  text-align: center;
+  margin-bottom: 3%;
+  background-color: rgba(214, 207, 207, 0);
+}
+.save button {
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  border: 1px solid rgb(146, 146, 146);
+  background-color: rgba(171, 210, 223, 0.829);
+  height: 40px;
+  border-radius: 5px;
+  font-family: cursive;
+  transition: all 0.5s;
+  margin: 20px;
+}
+.save button:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+}
+.popup-submit{
+  text-align: center;
+  margin-top: 4%;
+}
+.modal-footer{
+  margin-right: 22%;
+}
+.modal-footer button{
+  width: 120px;
+}
+.scroll{
+  /* margin-bottom: 100px; */
+  text-align: center;
+  width: 66%;
+  position: fixed; 
+  top: auto;
+  z-index: 1000;
+  bottom: 0;
+}

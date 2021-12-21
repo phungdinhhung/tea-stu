@@ -1,0 +1,36 @@
+.sign-up form {
+  margin: 1.5% 30%;
+  text-align: center;
+}
+.sign-up form h1 {
+  margin-bottom: 3%;
+  font-family: cursive;
+}
+.sign-up label {
+  font-weight: 500;
+  font-size: 120%;
+  font-family: cursive;
+}
+.sign-up input {
+  font-weight: 300;
+  font-family: cursive;
+  background-color: rgba(171, 210, 223, 0.829);
+}
+.sign-up form button {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  width: 100%;
+  background-color: rgba(21, 133, 141, 0.829);
+}
+.role .choose-role select {
+  font-family: cursive;
+  font-weight: 300;
+  font-family: cursive;
+  background-color: rgba(171, 210, 223, 0.829);
+}
+
+.message {
+  background-color: rgb(182, 0, 0) !important;
+  color: white !important;
+  text-align: center !important;
+}

@@ -1,0 +1,25 @@
+.question-bank{
+    margin: 3% 15%;
+    font-family: cursive;
+    margin-bottom: 33%;
+}
+.question-bank .topics{
+    font-size: 18px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    background-color: rgb(197, 197, 197);
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.question-bank .button-icon-more{
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+    float: right;
+}
+.question-bank .question-content{
+    padding: 0 5.5%;
+}

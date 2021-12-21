@@ -1,0 +1,51 @@
+.chart-score{
+    margin: 3% 10%;
+}
+.chart-score .chart{
+    width: 700px;
+    height: 430px;
+}
+.chart-score .id-exam {
+    font-family: cursive;
+    margin-bottom: 10px;
+    display: flex;
+}
+.chart-score .id-exam label{
+    margin-top: 5px;
+}
+.chart-score .id-exam input{
+    margin-left: 10px;
+    outline: none;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.chart-score .id-exam button{
+    outline: none;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 36.6px;
+    width: 40px;
+    margin-left: 10px;
+}
+.chart-score .quantity{
+    font-style: italic;
+    color: rgb(141, 141, 141);
+    font-size: 90%;
+}
+.chart-score .score{
+    font-style: italic;
+    color: rgb(141, 141, 141);
+    font-size: 90%;
+    margin-left: 630px;
+}
+
+.chart-score #table{
+    margin-left: -60px;
+}
+.fail{
+    background-color: rgb(182, 0, 0) !important;
+    color: white !important;
+    text-align: center !important;
+}

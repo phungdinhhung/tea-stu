@@ -1,0 +1,14 @@
+.congratulations{
+    margin: 3% 30%;
+    font-family: cursive;
+}
+.congratulations p{
+    font-size: 135%;
+}
+.congratulations img{
+    text-align: center;
+    width: 53%;
+    margin: 0 30%;
+    margin-bottom: 8%;
+    /* color: rgb(184, 184, 184); */
+}

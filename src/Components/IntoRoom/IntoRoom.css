@@ -1,0 +1,52 @@
+.into-room{
+    /* margin: 10% 0; */
+    text-align: center;
+    margin-bottom: 6%;
+    overflow: hidden;
+    margin-left: 6%;
+    margin-right: 6%;
+    overflow: hidden;
+}
+.into-room .row-1{
+    margin: 10% 0;
+    /* margin-left: 5%; */
+}
+.into-room .exam-id{
+    margin-bottom: 4%;
+    font-family: cursive;
+}
+.into-room .input-id input{
+    border: 1px solid rgb(223, 223, 223);
+    width: 60%;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 110%;
+}
+.into-room .input-id button{
+   height: 44px;
+   margin-bottom: 5px;
+   Background-color: rgba(171, 210, 223, 0.829);
+   border: 1px solid rgb(180, 180, 180);
+   font-weight: 500;
+   font-size: 110%;
+   margin-left: 5px;
+}
+.into-room .input-id button a{
+    color: rgb(8, 8, 8);
+}
+.into-room .input-id button a:hover{
+    text-decoration: none;
+}
+.into-room .row-2 img{
+    margin: 3% 0;
+    width: 60%;
+    /* margin-left: -10%; */
+}
+.invalid-id{
+    background-color: rgb(182, 0, 0) !important;
+  font-size: 15px;
+  border-radius: 10px 10px 10px 10px;
+  color: white !important;
+}
